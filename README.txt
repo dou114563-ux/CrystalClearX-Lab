@@ -1,12 +1,11 @@
-CrystalClearX Lab — image display patch
+CrystalClearX Lab — Dell image patch
 
-Why images were missing:
-The v3 _headers file used a Content-Security-Policy with img-src 'self', which blocked the remote Wikimedia images used by the project pages.
+Replace these files in your GitHub repository:
+  projects.html
+  projects/dell-aio.html
+  app.js
+  _headers
 
-Install:
-1. Replace the repository's _headers with this _headers.
-2. Replace the repository's app.js with this app.js.
-3. Commit/push to main.
-4. Cloudflare should automatically redeploy.
+The Dell image is changed to a reference photo of the Dell Inspiron 5400 / 7700 AIO IPTGL-CL motherboard from an eBay listing. It is for reference only and is not claimed to be the user's exact board.
 
-This patch also adds a local SVG fallback if Wikimedia cannot be reached from a visitor's network.
+After committing the files, Cloudflare should redeploy automatically.
