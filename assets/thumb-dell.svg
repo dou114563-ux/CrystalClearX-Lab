@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <defs><linearGradient id="b" x1="0" x2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#112846"/></linearGradient><linearGradient id="c"><stop stop-color="#71dcff"/><stop offset="1" stop-color="#466dff"/></linearGradient></defs>
+  <rect width="800" height="480" rx="28" fill="url(#b)"/>
+  <circle cx="660" cy="90" r="140" fill="#1c67ff" opacity=".10"/><circle cx="150" cy="380" r="180" fill="#47c9ff" opacity=".07"/>
+  <g transform="translate(80 100) rotate(-6 320 150)">
+    <rect x="0" y="0" width="520" height="300" rx="24" fill="#1a2431" stroke="#3c5068" stroke-width="6"/>
+    <path d="M35 58h450M35 115h450M35 172h450M35 229h450" stroke="#2b4c6e" stroke-width="2" opacity=".8"/>
+    <path d="M85 55h85v80H85zM210 55h120v80H210zM370 55h80v80H370z" fill="#0a6db1" opacity=".5" stroke="#59c8ff"/>
+    <circle cx="110" cy="200" r="42" fill="#0b0f15" stroke="#72dfff" stroke-width="4"/><circle cx="110" cy="200" r="22" fill="#263746"/>
+    <rect x="205" y="190" width="205" height="45" rx="10" fill="#162331" stroke="#48617b"/>
+    <rect x="220" y="204" width="145" height="12" rx="6" fill="url(#c)"/>
+    <rect x="470" y="175" width="22" height="90" rx="6" fill="#7199bd"/>
+  </g>
+  <text x="52" y="430" fill="#dff8ff" font-size="28" font-family="system-ui, sans-serif" font-weight="700">DELL AIO → STANDALONE PC</text>
+</svg>
