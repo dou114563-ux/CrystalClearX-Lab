@@ -17,11 +17,10 @@ if (filterButtons.length && cards.length) {
   }));
 }
 
-// Image fallback: the v3 project pages use Wikimedia images. If a visitor's
-// network blocks Wikimedia or the remote image is unavailable, fall back to
-// the bundled local project thumbnail so the layout never shows a broken image.
+// Image fallback: remote reference images can be unavailable in some regions or
+// blocked by a CDN. Keep a local project thumbnail as a graceful fallback.
 const pathPrefix = window.location.pathname.includes('/projects/') ? '../' : '';
-document.querySelectorAll('img[src*="upload.wikimedia.org"]').forEach(img => {
+document.querySelectorAll('img[src*="upload.wikimedia.org"], img[src*="i.ebayimg.com"]').forEach(img => {
   img.addEventListener('error', () => {
     const text = `${img.alt || ''} ${img.getAttribute('src') || ''}`.toLowerCase();
     let fallback = 'assets/thumb-web.svg';

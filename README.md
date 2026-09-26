@@ -22,3 +22,8 @@ This repository is intended for a Cloudflare Workers deployment using Static Ass
 Project pages can use remote reference images. If a remote Wikimedia image cannot be loaded by a visitor's network, the site falls back to a bundled SVG thumbnail so the layout remains intact.
 
 The Dell AIO project uses a reference image for the Dell Inspiron 5400/7700 AIO IPTGL-CL motherboard and explicitly labels it as a reference image rather than the user's exact board.
+
+
+## v4 image fix
+
+The Dell AIO images now use a verified Dell Inspiron 5400/7700 AIO IPTGL-CL reference photograph, with a local thumbnail fallback for networks that cannot reach the image CDN. The page does not present the reference photo as the owner's own hardware.
