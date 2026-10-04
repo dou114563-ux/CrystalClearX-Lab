@@ -1,29 +1,19 @@
-# CrystalClearX Lab
+# CrystalClearX Lab — Frutiger Aero / Y2K Edition
 
-A personal technology lab site for hardware projects, Raspberry Pi experiments, IoT builds, and web experiments.
+A lightweight static personal lab site built with plain HTML, CSS, and JavaScript for Cloudflare Workers Static Assets.
+
+## What's new
+- Frutiger Aero / Y2K-inspired visual language: aqua skies, glossy glass cards, bubbles, optimistic gradients.
+- Local artwork and a local hero reference image so the UI does not depend on remote image CDNs.
+- Projects page with category filters and clickable project detail pages.
+- Security headers via `_headers`.
 
 ## Structure
-
-- `index.html` — homepage
-- `projects.html` — project index with category filters
-- `projects/` — individual project pages
-- `assets/` — icons, thumbnails, and design assets
-- `_headers` — Cloudflare security headers and image policy
-- `app.js` — navigation, filters, and remote-image fallbacks
+- `index.html` — home page
+- `projects.html` — project archive
+- `projects/` — detail pages
+- `assets/` — favicon, icon, local project illustrations and local hero artwork
 - `style.css` — site styling
-- `wrangler.jsonc` — Cloudflare Workers static assets config
-
-## Deploy
-
-This repository is intended for a Cloudflare Workers deployment using Static Assets.
-
-## Image notes
-
-Project pages can use remote reference images. If a remote Wikimedia image cannot be loaded by a visitor's network, the site falls back to a bundled SVG thumbnail so the layout remains intact.
-
-The Dell AIO project uses a reference image for the Dell Inspiron 5400/7700 AIO IPTGL-CL motherboard and explicitly labels it as a reference image rather than the user's exact board.
-
-
-## v4 image fix
-
-The Dell AIO images now use a verified Dell Inspiron 5400/7700 AIO IPTGL-CL reference photograph, with a local thumbnail fallback for networks that cannot reach the image CDN. The page does not present the reference photo as the owner's own hardware.
+- `app.js` — navigation + project filters
+- `_headers` — security headers / CSP
+- `wrangler.jsonc` — Cloudflare Worker Static Assets config

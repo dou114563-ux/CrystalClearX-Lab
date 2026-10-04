@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
-  <defs><linearGradient id="b" x1="0" x2="1"><stop stop-color="#07131a"/><stop offset="1" stop-color="#12201d"/></linearGradient><linearGradient id="p"><stop stop-color="#92f28c"/><stop offset="1" stop-color="#3ac5ad"/></linearGradient></defs>
-  <rect width="800" height="480" rx="28" fill="url(#b)"/>
-  <circle cx="650" cy="110" r="150" fill="#4ee58e" opacity=".08"/>
-  <g transform="translate(120 92) rotate(5 260 150)">
-    <rect x="0" y="0" width="520" height="300" rx="24" fill="#174331" stroke="#55e398" stroke-width="5"/>
-    <circle cx="140" cy="145" r="72" fill="#11221b" stroke="#69f1a5" stroke-width="4"/>
-    <rect x="250" y="55" width="110" height="110" rx="12" fill="#0e1a16" stroke="#68e49c"/>
-    <rect x="385" y="55" width="95" height="38" rx="7" fill="#0d1914" stroke="#4e926d"/>
-    <rect x="385" y="112" width="95" height="38" rx="7" fill="#0d1914" stroke="#4e926d"/>
-    <rect x="70" y="235" width="140" height="26" rx="8" fill="url(#p)"/>
-    <path d="M250 220h210M250 250h160" stroke="#82f4b0" stroke-width="4" opacity=".65"/>
-    <g fill="#c6ffdb"><circle cx="38" cy="45" r="6"/><circle cx="485" cy="220" r="6"/><circle cx="460" cy="270" r="6"/></g>
-  </g>
-  <text x="52" y="430" fill="#dcffe8" font-size="28" font-family="system-ui, sans-serif" font-weight="700">RASPBERRY PI HOME LAB</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450"><defs><linearGradient id="s" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ecffff"/><stop offset="1" stop-color="#8fe0ff"/></linearGradient></defs><rect width="800" height="450" rx="28" fill="url(#s)"/><circle cx="120" cy="90" r="52" fill="#fff" opacity=".55"/><circle cx="650" cy="120" r="26" fill="#fff" opacity=".5"/><rect x="160" y="92" width="480" height="266" rx="18" fill="#2c9b63" stroke="#fff" stroke-width="8"/><rect x="225" y="145" width="155" height="100" rx="10" fill="#0a5268"/><rect x="405" y="145" width="120" height="80" rx="10" fill="#1e6a48"/><rect x="250" y="275" width="265" height="38" rx="12" fill="#dffcff" opacity=".85"/><g fill="#f7d24f"><circle cx="205" cy="133" r="8"/><circle cx="595" cy="133" r="8"/><circle cx="205" cy="322" r="8"/><circle cx="595" cy="322" r="8"/></g><text x="400" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#15734b">Raspberry Pi 4 • Home Lab</text></svg>
