@@ -1,12 +1,188 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="CrystalClearX Lab — a personal technology lab with a nostalgic Frutiger Aero / Y2K-inspired interface."><meta property="og:title" content="CrystalClearX Lab"><meta property="og:description" content="Build · Repair · Explore · Create"><meta property="og:type" content="website"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><title>CrystalClearX Lab</title></head><body>
-<header class="nav"><div class="container nav-inner"><a class="brand" href="index.html"><img src="assets/icon.svg" alt="CrystalClearX icon"><strong>CrystalClearX <span>Lab</span></strong></a><nav><a class="active" href="index.html">Home</a><a href="projects.html">Projects</a><a href="projects.html#hardware">Hardware</a><a href="projects.html#raspberry-pi">Raspberry Pi</a><a href="#about">About</a></nav><div class="nav-actions"><button class="icon-btn mobile-toggle" aria-label="Open menu">☰</button></div></div></header>
-<main>
-<section class="hero"><div class="container hero-grid"><div class="hero-copy"><div class="eyebrow">CRYSTALCLEARX LAB · 2000s FUTURE</div><h1>Clear sky.<br><span>Bright ideas.</span></h1><p class="lead">A personal technology lab for hardware repair, Raspberry Pi, embedded systems, web experiments, and all the wonderfully weird stuff worth building.</p><div class="actions"><a class="button primary" href="projects.html">Explore Projects →</a><a class="button secondary" href="#about">About the Lab</a></div><div class="stats"><div class="stat"><strong>04</strong><span>project directions</span></div><div class="stat"><strong>∞</strong><span>things to experiment with</span></div><div class="stat"><strong>2026</strong><span>lab online</span></div></div></div><div class="hero-card"><img src="assets/thumb-dell.svg" alt="Stylized Dell Inspiron 5400 AIO IPTGL-CL motherboard illustration"><div class="hero-card-caption"><div><div class="eyebrow green">FEATURED PROJECT</div><strong>Dell AIO → Standalone PC</strong><small>IPTGL-CL · HDMI · repair log</small></div><a class="link" href="projects/dell-aio.html">Open →</a></div></div></div></section>
-<section class="section section-light" id="projects"><div class="container"><div class="section-head"><div><div class="eyebrow">01 / PROJECTS</div><h2>Things I've built and broken.</h2></div><a class="link" href="projects.html">See all projects →</a></div><p class="section-intro">Hardware, self-hosting, IoT, and web experiments — presented like a bright little digital notebook from the future that the 2000s promised us.</p><div class="card-grid" style="margin-top:28px">
-<a class="card" href="projects/dell-aio.html"><div class="card-media"><img src="assets/thumb-dell.svg" alt="Dell AIO project illustration"></div><div class="card-body"><div class="card-top"><span class="tag">Hardware</span><span class="status done">Completed</span></div><h3>Dell AIO → Standalone PC</h3><p>Turning a Dell Inspiron all-in-one motherboard into a compact standalone PC.</p><span class="link">View project →</span></div></a>
-<a class="card" href="projects/raspberry-pi.html"><div class="card-media"><img src="assets/thumb-pi.svg" alt="Raspberry Pi home lab illustration"></div><div class="card-body"><div class="card-top"><span class="tag">Raspberry Pi</span><span class="status done">Running</span></div><h3>Raspberry Pi Home Lab</h3><p>Pi-hole, networking, self-hosted services, and automation.</p><span class="link">View project →</span></div></a>
-<a class="card" href="projects/solar-iot.html"><div class="card-media"><img src="assets/thumb-solar.svg" alt="Solar IoT project illustration"></div><div class="card-body"><div class="card-top"><span class="tag">IoT</span><span class="status work">In progress</span></div><h3>Solar IoT Model</h3><p>ESP32 + solar panel + battery + relay control.</p><span class="link">View project →</span></div></a>
-</div></div></section>
-<section class="section section-aqua"><div class="container photo-band"><div><div class="eyebrow green">WHY THIS LOOK?</div><h2>A little bit Y2K. A lot more joy.</h2><p class="section-intro">CrystalClearX Lab now leans into the glossy, optimistic “future is friendly” aesthetic: clear skies, soft glass, aqua gradients, bubbles, and UI that feels like it belongs on a translucent MP3 player.</p><div class="bubble-row"><span class="bubble b1"></span><span class="bubble b2"></span><span class="bubble b3"></span><span class="bubble b1"></span></div></div><div class="aero-callout"><h3>Build · Repair · Explore · Create</h3><p>Under all the nostalgia, the site is still intentionally lightweight: plain HTML, CSS, JavaScript, and Cloudflare Workers Static Assets.</p><a class="button primary" href="projects.html">Open the project log →</a></div></div></section>
-<section class="section section-light" id="about"><div class="container detail-grid"><div><div class="eyebrow">02 / ABOUT</div><h2>Welcome to the Lab.</h2><p class="section-intro">CrystalClearX Lab is a growing notebook for projects that start as “what happens if I try this?” and end with a board, a terminal, or a website that actually works.</p><p class="section-intro">The interface may be nostalgic, but the projects are real: hardware repair, Raspberry Pi services, IoT prototypes, Linux tinkering, and web experiments.</p></div><div class="panel"><h3>Lab principles</h3><div class="checklist"><div class="check">Learn by building.</div><div class="check">Document the weird parts.</div><div class="check">Prefer practical solutions.</div><div class="check">Break things carefully.</div></div></div></div></section>
-</main><footer class="footer"><div class="container footer-inner"><span>© 2026 CrystalClearX Lab</span><span class="mono">Powered by HTML · CSS · JS · ☁️</span></div></footer><script src="app.js" defer></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CrystalClearX Lab — Welcome</title>
+  <meta name="description" content="CrystalClearX Lab — a nostalgic retro-future personal technology lab.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="aero-sky"></div>
+  <div class="bubble bubble-a"></div>
+  <div class="bubble bubble-b"></div>
+  <div class="bubble bubble-c"></div>
+
+  <div class="site-shell">
+    <header class="top-window aero-glass">
+      <div class="titlebar">
+        <div class="brand-line">
+          <img src="/assets/logo.svg" class="brand-icon" alt="CrystalClearX icon">
+          <div>
+            <div class="brand-name">CrystalClearX Lab</div>
+            <div class="brand-sub">Personal technology &amp; experiments</div>
+          </div>
+        </div>
+        <div class="window-buttons" aria-hidden="true"><span>_</span><span>□</span><span>×</span></div>
+      </div>
+      <nav class="menu-bar">
+        <a class="menu-item active" href="/">Home</a>
+        <a class="menu-item" href="/projects.html">Projects</a>
+        <a class="menu-item" href="/projects/dell-aio.html">Hardware</a>
+        <a class="menu-item" href="/projects/raspberry-pi.html">Raspberry Pi</a>
+        <a class="menu-item" href="#about">About</a>
+        <span class="menu-spacer"></span>
+        <span class="tiny-led"></span><span class="menu-note">ONLINE</span>
+      </nav>
+    </header>
+
+    <div class="announcement aero-panel">
+      <span class="led-dot"></span>
+      <div class="ticker"><div>Welcome to CrystalClearX Lab! ✦ Build · Repair · Explore · Create ✦ Welcome to the internet we imagined in 1999.</div></div>
+      <span class="new-badge">NEW!</span>
+    </div>
+
+    <div class="portal-grid">
+      <aside class="sidebar">
+        <section class="aero-panel side-panel">
+          <div class="panel-title"><span>◆</span> Navigation</div>
+          <a class="big-link" href="/"><span class="link-icon">⌂</span>Home</a>
+          <a class="big-link" href="/projects.html"><span class="link-icon">✦</span>Projects</a>
+          <a class="big-link" href="/projects/dell-aio.html"><span class="link-icon">▣</span>Hardware</a>
+          <a class="big-link" href="/projects/raspberry-pi.html"><span class="link-icon">●</span>Raspberry Pi</a>
+          <a class="big-link" href="#about"><span class="link-icon">i</span>About</a>
+        </section>
+
+        <section class="aero-panel side-panel badge-panel">
+          <div class="panel-title"><span>★</span> CrystalClearX</div>
+          <div class="logo-bubble">
+            <img src="/assets/logo.svg" alt="CrystalClearX glossy logo">
+            <div class="bubble-shine"></div>
+          </div>
+          <div class="tag-stack">Clear Mind<br>Clear Build<br>Clear Future</div>
+          <div class="mini-links"><a href="/projects.html">Enter Lab →</a><a href="#about">Read more →</a></div>
+        </section>
+
+        <section class="aero-panel side-panel media-widget">
+          <div class="media-row"><span class="play-button">▶</span><div class="media-lines"><b>Crystal Player</b><span class="equalizer"><i></i><i></i><i></i><i></i><i></i><i></i></span></div></div>
+          <div class="progress"><span></span></div>
+          <div class="media-meta">retro_mode.mp3 · 03:37</div>
+        </section>
+      </aside>
+
+      <main class="main-column">
+        <section class="hero aero-glass">
+          <div class="hero-copy">
+            <div class="crumb">YOU ARE HERE: <b>Home</b> / CrystalClearX Lab</div>
+            <h1>Welcome to <span>CrystalClearX</span></h1>
+            <h2>A small corner of the web for big little projects.</h2>
+            <p>Repairing hardware, building Raspberry Pi systems, experimenting with IoT, and documenting the things that make me curious.</p>
+            <div class="hero-actions"><a class="aero-button primary" href="/projects.html">Enter the Projects Lab →</a><a class="aero-button" href="#about">About this site</a></div>
+            <div class="best-viewed">✦ Best viewed in a sunny window at 1024×768 ✦</div>
+          </div>
+          <div class="hero-art">
+            <div class="globe"><div class="globe-shine"></div><div class="globe-ring"></div><div class="globe-ring ring-2"></div><span>CCX</span></div>
+            <div class="cloud cloud-1"></div><div class="cloud cloud-2"></div><div class="water-line"></div>
+          </div>
+        </section>
+
+        <section class="aero-panel content-panel" id="about">
+          <div class="panel-title"><span>●</span> About CrystalClearX Lab</div>
+          <div class="intro-grid">
+            <div class="intro-copy">
+              <p class="hello">Hi! I'm CrystalClearX Lab.</p>
+              <p>This is my personal technology playground — a place to collect repairs, hardware conversions, Raspberry Pi experiments, and web projects.</p>
+              <p>I'm intentionally bringing back the optimistic web aesthetic of the late 90s and early 2000s: glossy windows, bright skies, glassy buttons, little status lights, and the feeling that the internet was still a place to explore.</p>
+              <p class="quote">“Small projects. Big dreams.”</p>
+            </div>
+            <div class="aero-sticker">
+              <div class="sticker-top">CRYSTAL CLEAR</div>
+              <div class="sticker-globe">✦</div>
+              <div class="sticker-bottom">LAB // 2026</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="aero-panel content-panel">
+          <div class="panel-title"><span>★</span> Featured Projects</div>
+          <div class="project-grid">
+            <a class="project-card" href="/projects/dell-aio.html">
+              <div class="project-art art-dell"><span class="art-label">IPTGL-CL</span><div class="pcb"></div><div class="chip">DELL</div><div class="gloss"></div></div>
+              <div class="project-body"><span class="status done">COMPLETED</span><h3>Dell AIO → Standalone PC</h3><p>Turning a Dell Inspiron AIO motherboard into a standalone HDMI computer.</p><span class="more">Open project →</span></div>
+            </a>
+            <a class="project-card" href="/projects/raspberry-pi.html">
+              <div class="project-art art-pi"><span class="berry">◉</span><div class="pi-board"></div><div class="gloss"></div></div>
+              <div class="project-body"><span class="status done">ACTIVE</span><h3>Raspberry Pi Home Lab</h3><p>Pi-hole, OpenClaw, Debian OS, networking, and self-hosted experiments.</p><span class="more">Open project →</span></div>
+            </a>
+            <a class="project-card" href="/projects/solar-iot.html">
+              <div class="project-art art-solar"><div class="sun">☼</div><div class="panel-grid"></div><div class="bubble-small"></div><div class="gloss"></div></div>
+              <div class="project-body"><span class="status progress">IN PROGRESS</span><h3>Solar IoT Model</h3><p>ESP32 + solar panel + battery + relay control for a small smart system.</p><span class="more">Open project →</span></div>
+            </a>
+            <a class="project-card" href="/projects.html">
+              <div class="project-art art-web"><div class="globe-mini">◉</div><div class="orbit-mini"></div><div class="bubble-small one"></div><div class="bubble-small two"></div><div class="gloss"></div></div>
+              <div class="project-body"><span class="status planned">MORE</span><h3>Web Experiments</h3><p>Domains, Cloudflare, static sites, UI ideas, and future Internet things.</p><span class="more">Browse all →</span></div>
+            </a>
+          </div>
+        </section>
+
+        <section class="two-col">
+          <div class="aero-panel content-panel">
+            <div class="panel-title"><span>✉</span> Latest Updates</div>
+            <div class="news-list">
+              <div><time>2026-10-04</time><span>Retro-future / Frutiger Aero redesign started.</span></div>
+              <div><time>2026-09-26</time><span>CrystalClearX Lab v5 shipped.</span></div>
+              <div><time>2026-09-25</time><span>Projects section became fully clickable.</span></div>
+              <div><time>2026-09-22</time><span>Dell AIO board repair project completed.</span></div>
+            </div>
+          </div>
+          <div class="aero-panel content-panel">
+            <div class="panel-title"><span>★</span> Quick Links</div>
+            <div class="quick-grid">
+              <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+              <a href="https://dash.cloudflare.com/" target="_blank" rel="noopener">Cloudflare</a>
+              <a href="#about">About me</a>
+              <a href="/projects.html">Projects</a>
+            </div>
+            <div class="webring">✦ <b>CrystalClearX Webring</b> ✦<br><small>Next stop: somewhere on the open web.</small></div>
+          </div>
+        </section>
+      </main>
+
+      <aside class="rightbar">
+        <section class="aero-panel side-panel">
+          <div class="panel-title"><span>☆</span> Site Status</div>
+          <div class="status-row"><span class="led-dot"></span> Website online</div>
+          <div class="status-row"><span class="led-dot green"></span> HTTPS secured</div>
+          <div class="status-row"><span class="led-dot cyan"></span> Cloudflare active</div>
+          <div class="counter"><span>VISITOR</span><strong>000426</strong></div>
+        </section>
+        <section class="aero-panel side-panel quote-panel">
+          <div class="panel-title"><span>☁</span> A Note From The Lab</div>
+          <p>“The future looked brighter when websites had bubbles.”</p>
+          <div class="signature">— CrystalClearX</div>
+        </section>
+        <section class="aero-panel side-panel mini-calendar">
+          <div class="panel-title"><span>▦</span> October 2026</div>
+          <div class="calendar-head"><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span></div>
+          <div class="calendar-grid">
+            <i></i><i></i><i></i><i></i><i></i><i class="sunny">1</i><i>2</i>
+            <i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i>
+            <i>10</i><i>11</i><i>12</i><i>13</i><i>14</i><i>15</i><i>16</i>
+            <i>17</i><i>18</i><i>19</i><i>20</i><i>21</i><i>22</i><i>23</i>
+            <i>24</i><i>25</i><i>26</i><i>27</i><i>28</i><i>29</i><i>30</i>
+            <i>31</i>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <footer class="footer aero-glass">
+      <div>© 2026 CrystalClearX Lab · Since 2026</div>
+      <div><a href="/projects.html">Projects</a> · <a href="#about">About</a> · <a href="/">Home</a></div>
+      <div class="footer-note">Better Tools · A Clearer Tomorrow ✉</div>
+    </footer>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
