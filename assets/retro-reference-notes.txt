@@ -1,0 +1,15 @@
+CrystalClearX Lab visual reference notes
+
+The visual direction was informed by archived web design examples from the Web Design Museum:
+- Yahoo in 1999
+  https://www.webdesignmuseum.org/gallery/yahoo-in-1999
+- Yahoo! GeoCities in 1999
+  https://www.webdesignmuseum.org/gallery/geocities-1999
+- MSN in 1999
+  https://www.webdesignmuseum.org/gallery/msn-in-1999
+- Microsoft in 1999
+  https://www.webdesignmuseum.org/gallery/microsoft-in-1999
+- Web Design in the 90s exhibition
+  https://www.webdesignmuseum.org/exhibitions/web-design-in-the-90s
+
+The site uses original CSS/SVG recreations of the period's visual ideas rather than copying third-party site artwork.
