@@ -1,17 +1,29 @@
 # CrystalClearX Lab
 
-A hand-built personal technology lab with a deliberately nostalgic late-1990s / early-2000s glass-and-aqua web aesthetic.
+A personal technology lab site for hardware projects, Raspberry Pi experiments, IoT builds, and web experiments.
 
 ## Structure
-- `index.html` — home page
-- `projects.html` — project archive with filters
-- `projects/` — individual project files
-- `assets/` — local graphics
-- `_headers` — Cloudflare security headers
-- `wrangler.jsonc` — Cloudflare Workers Static Assets configuration
 
-## Design direction
-The layout takes cues from surviving 1990s/early-2000s web archives: fixed-width portal layouts, three-column pages, glossy navigation, bevels, gradients, status strips, visitor counters, small badges, and optimistic blue/aqua imagery. Reference material was reviewed from the Web Design Museum's archived pages for Yahoo, GeoCities, MSN, Microsoft, and other 1990s portals.
+- `index.html` — homepage
+- `projects.html` — project index with category filters
+- `projects/` — individual project pages
+- `assets/` — icons, thumbnails, and design assets
+- `_headers` — Cloudflare security headers and image policy
+- `app.js` — navigation, filters, and remote-image fallbacks
+- `style.css` — site styling
+- `wrangler.jsonc` — Cloudflare Workers static assets config
 
-## Image policy
-Project cards use site-made SVG illustrations so the repository does not depend on third-party image CDNs. If real project photographs are added later, keep their source and license notes beside the relevant page.
+## Deploy
+
+This repository is intended for a Cloudflare Workers deployment using Static Assets.
+
+## Image notes
+
+Project pages can use remote reference images. If a remote Wikimedia image cannot be loaded by a visitor's network, the site falls back to a bundled SVG thumbnail so the layout remains intact.
+
+The Dell AIO project uses a reference image for the Dell Inspiron 5400/7700 AIO IPTGL-CL motherboard and explicitly labels it as a reference image rather than the user's exact board.
+
+
+## v4 image fix
+
+The Dell AIO images now use a verified Dell Inspiron 5400/7700 AIO IPTGL-CL reference photograph, with a local thumbnail fallback for networks that cannot reach the image CDN. The page does not present the reference photo as the owner's own hardware.

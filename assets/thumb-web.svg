@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360"><defs><linearGradient id="b" y2="1"><stop stop-color="#37d7ff"/><stop offset="1" stop-color="#dffcff"/></linearGradient></defs><rect width="640" height="360" fill="url(#b)"/><ellipse cx="320" cy="210" rx="168" ry="74" fill="#7cecff" stroke="#fff" stroke-width="7" opacity=".85"/><ellipse cx="320" cy="210" rx="205" ry="58" fill="none" stroke="#fff" stroke-width="6" transform="rotate(-15 320 210)"/><path d="M320 138 347 190 320 281 291 190Z" fill="#dffcff" stroke="#fff" stroke-width="3"/><circle cx="278" cy="163" r="18" fill="#fff" opacity=".6"/><text x="320" y="334" font-family="Verdana,Arial" font-size="18" text-anchor="middle" fill="#0f6c8f">CRYSTALCLEARX WEB</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <defs><linearGradient id="b" x1="0" x2="1"><stop stop-color="#08111d"/><stop offset="1" stop-color="#18102a"/></linearGradient><linearGradient id="g" x1="0" x2="1"><stop stop-color="#52d6ff"/><stop offset="1" stop-color="#8a6bff"/></linearGradient></defs>
+  <rect width="800" height="480" rx="28" fill="url(#b)"/>
+  <rect x="90" y="90" width="620" height="280" rx="22" fill="#101827" stroke="#34516e" stroke-width="4"/>
+  <rect x="90" y="90" width="620" height="48" rx="22" fill="#162334"/>
+  <circle cx="120" cy="114" r="7" fill="#ff6a6a"/><circle cx="144" cy="114" r="7" fill="#ffcf62"/><circle cx="168" cy="114" r="7" fill="#68e28d"/>
+  <rect x="135" y="175" width="170" height="135" rx="14" fill="#0d1725" stroke="#2d7ca0"/>
+  <rect x="330" y="175" width="330" height="20" rx="8" fill="#243e56"/><rect x="330" y="210" width="270" height="20" rx="8" fill="#1c3449"/><rect x="330" y="245" width="190" height="20" rx="8" fill="#172d40"/>
+  <path d="M180 280c25-70 85-70 115 0" fill="none" stroke="url(#g)" stroke-width="10" stroke-linecap="round"/>
+  <text x="52" y="430" fill="#e9e8ff" font-size="28" font-family="system-ui, sans-serif" font-weight="700">WEB EXPERIMENTS</text>
+</svg>

@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360"><defs><linearGradient id="sky" y2="1"><stop stop-color="#7beaff"/><stop offset="1" stop-color="#eaffff"/></linearGradient><linearGradient id="panel" y2="1"><stop stop-color="#2d6aa2"/><stop offset="1" stop-color="#173d6e"/></linearGradient></defs><rect width="640" height="360" fill="url(#sky)"/><circle cx="112" cy="72" r="44" fill="#ffe56e" stroke="#fff" stroke-width="5"/><g transform="rotate(-8 328 216)"><rect x="158" y="106" width="330" height="165" rx="8" fill="#f7fdff" stroke="#fff" stroke-width="7"/><rect x="176" y="122" width="294" height="128" rx="4" fill="url(#panel)"/><g stroke="#72d6ff" stroke-width="2" opacity=".75"><path d="M225 122v128M274 122v128M323 122v128M372 122v128M421 122v128"/><path d="M176 154h294M176 186h294M176 218h294"/></g></g><g fill="#fff" opacity=".75"><circle cx="530" cy="80" r="14"/><circle cx="559" cy="112" r="26"/></g><rect x="280" y="281" width="100" height="16" rx="8" fill="#40b4dc"/><text x="320" y="333" font-family="Verdana,Arial" font-size="18" text-anchor="middle" fill="#0f6c8f">SOLAR IoT / ESP32</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480">
+  <defs><linearGradient id="b" x1="0" x2="1"><stop stop-color="#17140a"/><stop offset="1" stop-color="#10202c"/></linearGradient><linearGradient id="s" x1="0" x2="1"><stop stop-color="#4cb8ff"/><stop offset="1" stop-color="#2e7fff"/></linearGradient></defs>
+  <rect width="800" height="480" rx="28" fill="url(#b)"/>
+  <circle cx="635" cy="78" r="58" fill="#ffe07a" opacity=".24"/>
+  <g transform="translate(90 92)">
+    <polygon points="40,20 330,0 420,240 125,270" fill="#0d2740" stroke="#6bcfff" stroke-width="6"/>
+    <path d="M88 32 160 252M155 27 225 247M224 22 294 242M294 17 365 236M54 92 352 70M76 158 377 136M101 226 403 204" stroke="#4599d8" stroke-width="4" opacity=".9"/>
+    <path d="M470 225h120" stroke="#95f5ff" stroke-width="5"/>
+    <rect x="500" y="175" width="80" height="90" rx="14" fill="#18252e" stroke="#4de5c4" stroke-width="4"/>
+    <circle cx="540" cy="205" r="12" fill="#4de5c4"/><circle cx="540" cy="242" r="12" fill="#466a7a"/>
+    <path d="M420 235h55l25 0" stroke="#4de5c4" stroke-width="5" fill="none"/>
+    <path d="M10 315h660" stroke="#4e5b63" stroke-width="3"/>
+  </g>
+  <text x="52" y="430" fill="#fff4c4" font-size="28" font-family="system-ui, sans-serif" font-weight="700">SOLAR IoT MODEL</text>
+</svg>
